@@ -1,0 +1,51 @@
+{
+    "1": {
+        "model_path": {
+            "linear": "ai/model_info/model_ai/model_linear_1.pkl",
+            "lasso": "ai/model_info/model_ai/model_lasso_1.pkl",
+            "ridge": "ai/model_info/model_ai/model_ridge_1.pkl"
+        },
+        "index_linear": [
+            91,
+            106,
+            110,
+            111,
+            116,
+            117,
+            122,
+            123,
+            134,
+            153,
+            161,
+            162,
+            169,
+            173,
+            176,
+            210,
+            404,
+            448,
+            478,
+            507
+        ],
+        "eval": [
+            {
+                "mape": 0.08416473633517149,
+                "mse": 1.8979907063744328,
+                "name": "Linear",
+                "training_time": 2.0846378803253174
+            },
+            {
+                "mape": 0.023368244046536004,
+                "mse": 0.18203286607187888,
+                "name": "Lasso",
+                "training_time": 6.036332845687866
+            },
+            {
+                "mape": 0.010794094930819235,
+                "mse": 0.03639262159952028,
+                "name": "Ridge",
+                "training_time": 3.2789371013641357
+            }
+        ]
+    }
+}
