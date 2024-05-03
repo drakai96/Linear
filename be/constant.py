@@ -1,0 +1,1 @@
+DATA_INFO_COLLECTION = "data_info"
